@@ -11,7 +11,7 @@ const Hero = () => {
               Web Developer
             </h1>
             <img
-              src="/public/images/hand.png"
+              src="./images/hand.png"
               className="h-[70px] w-[70px] p-2 mx-2 mb-8 hidden md:inline "
               alt="Hand image"
             />

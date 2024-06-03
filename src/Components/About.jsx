@@ -12,6 +12,7 @@ const About = () => {
             className="rounded-3xl md:w-[400px] about-img "
           />
         </div>
+        {/*  --- Right Container --- */}
         <div className="right-part md:w-1/2 mt-10 md:mt-0">
           <h3 className="font-bold text-xl mb-2">about me.</h3>
           <h2 className="font-bold text-2xl mb-3 text-[#f44236]">

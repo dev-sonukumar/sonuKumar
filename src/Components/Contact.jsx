@@ -4,6 +4,7 @@ import { MdOutlineAlternateEmail } from "react-icons/md";
 const Contact = () => {
   return (
     <div className="container w-full mx-auto my-[6rem]">
+      {/*  --- Left Container --- */}
       <div className=" flex justify-center md:flex md:justify-between items-end ">
         <div className="">
           <div className="xs:text-center lg:text-start xs:mb-10 lg:mb-0">
@@ -35,8 +36,10 @@ const Contact = () => {
             </div>
           </div>
         </div>
+
+        {/*  --- Right Container --- */}
         <img
-          src="/public/images/contactimage.png"
+          src="./images/contactimage.png"
           className="hidden md:inline w-[40%]"
         />
       </div>
