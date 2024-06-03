@@ -51,12 +51,12 @@ const Projects = () => {
     ],
   };
   const projectData = [
-    { imageSrc: "/public/images/projects.png" },
-    { imageSrc: "/public/images/profile.png" },
-    { imageSrc: "/public/images/projects.png" },
-    { imageSrc: "/public/images/profile.png" },
-    { imageSrc: "/public/images/projects.png" },
-    { imageSrc: "/public/images/profile.png" },
+    { imageSrc: "./images/projects.png" },
+    { imageSrc: "./images/profile.png" },
+    { imageSrc: "./images/projects.png" },
+    { imageSrc: "./images/profile.png" },
+    { imageSrc: "./images/projects.png" },
+    { imageSrc: "./images/profile.png" },
   ];
 
   return (
