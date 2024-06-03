@@ -17,8 +17,10 @@ const Hero = () => {
             />
             <p className="text-[16px] md:text-[21px] ">
               Hi, I am{" "}
-              <span className="text-[#fc6b60] font-bold}">Sonu Kumar</span> A
-              passionate Web Developer.
+              <span className="text-[#fc6b60] font-bold}">
+                Sonu Kumar Singh
+              </span>{" "}
+              A passionate Web Developer.
             </p>
             <Tech />
             <Resume />
