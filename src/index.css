@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+  }
+}
+
+h1,
+h2,
+h3,
+p,
+a,
+span {
+  color: #2d2e32;
+}
+
+nav ul li a {
+  transition: all 0.3s ease;
+  border-radius: 10px;
+  padding: 5px 12px;
+}
+
+nav ul li a:hover {
+  background-color: #fc6b60;
+  color: whitesmoke;
+}
+
+.container {
+  max-width: 1200px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.bdr {
+  border: 1px solid red;
+}
+
+/* ---- Liqued Profile Image ---0 */
+
+.box-container {
+  border: 2px dashed black;
+}
+
+.box,
+.box-container {
+  animation: liqued-bg 8s ease-in-out infinite;
+}
+
+@keyframes liqued-bg {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    background-size: 100% 100%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    background-size: 300% 150%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    background-size: 100% 100%;
+  }
+}
