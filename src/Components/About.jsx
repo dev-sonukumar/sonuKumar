@@ -7,7 +7,7 @@ const About = () => {
       <div className="container mx-auto xs:px-5 lg:px-0  md:flex justify-between ">
         <div className="rounded xs:mb-11">
           <img
-            src="/public/images/aboutImage.png"
+            src="./images/aboutImage.png"
             alt="About-Image"
             className="rounded-3xl md:w-[400px] about-img "
           />
