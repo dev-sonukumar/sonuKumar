@@ -3,7 +3,7 @@ import Resume from "./Resume";
 
 const About = () => {
   return (
-    <div className="md:flex justify-center items-center my-5 md:my-20">
+    <div className="md:flex justify-center items-center  bg-[#F9F9F9] py-20">
       <div className="container mx-auto xs:px-5 lg:px-0  md:flex justify-between ">
         <div className="rounded xs:mb-11">
           <img

@@ -4,7 +4,7 @@ import Resume from "./Resume";
 const Hero = () => {
   return (
     <>
-      <div className="w-full h-[80%] md:h-screen flex justify-center items-center flex-wrap bg-[#F9F9F9] ">
+      <div className="w-full h-[80%] md:h-screen flex justify-center items-center flex-wrap bg-[#F9F9F9] mt-10">
         <div className="container flex justify-center items-center flex-col-reverse sm:flex-row gap-3 md:gap-10 text-center md:text-start">
           <div className="w-full md:w-[60%] mb-10">
             <h1 className="font-bold text-[40px] md:text-[60px] inline">

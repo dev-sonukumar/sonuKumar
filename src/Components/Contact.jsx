@@ -1,12 +1,13 @@
 import { GoLocation } from "react-icons/go";
 import { MdOutlineAlternateEmail } from "react-icons/md";
+import ContactForm from "./ContactForm";
 
 const Contact = () => {
   return (
     <div className="container w-full mx-auto my-[6rem]">
       {/*  --- Left Container --- */}
       <div className=" flex justify-center md:flex md:justify-between items-end ">
-        <div className="">
+        <div>
           <div className="xs:text-center lg:text-start xs:mb-10 lg:mb-0">
             <h3 className="font-bold text-xl mb-2">CONTACT</h3>
             <h2 className="font-bold text-2xl mb-3 text-[#f44236]">
@@ -34,6 +35,9 @@ const Contact = () => {
                 <a href="email">dev.sonukumarsingh@gmail.com</a>
               </div>
             </div>
+          </div>
+          <div className="mt-10">
+            <ContactForm />
           </div>
         </div>
 
