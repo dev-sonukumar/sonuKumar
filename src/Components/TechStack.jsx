@@ -81,7 +81,7 @@ const TechStack = () => {
               <div>
                 <li>
                   <h3>SQL</h3>
-                  <p></p>
+                  <p>intermediate</p>
                 </li>
                 <li>
                   <h3>Tailwind</h3>
