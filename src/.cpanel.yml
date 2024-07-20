@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/frontend/public_html/
-    - /bin/cp * $DEPLOYPATH
+    - export DEPLOYPATH=/home/frontned/public_html/
+    - /bin/cp -R images $DEPLOYPATH
