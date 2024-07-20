@@ -2,12 +2,11 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import projectData from "./miniProjectData.json";
-
 import ProjectCards from "./ProjectCards";
 
 const MiniProjects = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 4,

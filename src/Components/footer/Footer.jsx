@@ -1,4 +1,4 @@
-import Social from "../miniComponent/Social";
+import Social from "../../miniComponent/Social";
 
 const Footer = () => {
   return (

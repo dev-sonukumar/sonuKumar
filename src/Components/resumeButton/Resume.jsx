@@ -1,4 +1,4 @@
-import resume from "../../public/documents/Resume_FrontendDev.pdf";
+import resume from "../../../public/documents/SonuKumar_Resume.pdf";
 
 const Resume = () => {
   return (

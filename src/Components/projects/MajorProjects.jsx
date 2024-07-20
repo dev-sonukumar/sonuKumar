@@ -6,7 +6,7 @@ import ProjectCards from "./ProjectCards";
 
 const MajorProjects = () => {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 4,
