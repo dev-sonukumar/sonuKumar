@@ -69,7 +69,7 @@ const router = createBrowserRouter([
 ]);
 
 createRoot(document.getElementById("root")).render(
-  <RouterProvider router={router} basename="/sonuKumar">
+  <RouterProvider router={router}>
     <App />
   </RouterProvider>
 );
