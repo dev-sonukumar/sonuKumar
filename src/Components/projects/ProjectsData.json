@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Project One",
+    "image": "./images/profile.png",
+    "liveLink": "https://example.com/live-preview",
+    "githubLink": "https://github.com/example/project-one"
+  },
+  {
+    "id": 2,
+    "title": "Project One",
+    "image": "./images/aboutImage.png",
+    "liveLink": "https://example.com/live-preview",
+    "githubLink": "https://github.com/example/project-one"
+  },
+  {
+    "id": 3,
+    "title": "Project One",
+    "image": "./images/profile.png",
+    "liveLink": "https://example.com/live-preview",
+    "githubLink": "https://github.com/example/project-one"
+  },
+  {
+    "id": 4,
+    "title": "Project One",
+    "image": "./images/aboutImage.png",
+    "liveLink": "https://example.com/live-preview",
+    "githubLink": "https://github.com/example/project-one"
+  }
+]

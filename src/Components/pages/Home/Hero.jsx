@@ -1,5 +1,5 @@
 import Tech from "../../miniComponent/Tech";
-import Resume from "../resumeButton/Resume";
+import Resume from "../../resumeButton/Resume";
 
 const Hero = () => {
   return (

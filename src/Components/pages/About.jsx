@@ -1,5 +1,5 @@
 import Resume from "../resumeButton/Resume";
-import SocialMedia from "../../miniComponent/SocialMedia";
+import SocialMedia from "../miniComponent/SocialMedia";
 
 const About = () => {
   return (
