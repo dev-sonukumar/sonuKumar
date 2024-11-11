@@ -103,7 +103,6 @@ const Navbar = () => {
           </Link>
           <Link
             to="/contact"
-            target="_blank"
             className="flex items-center hover:text-primary transition-all text-gray-800 text-lg font-semibold  w-full"
             onClick={closeMenu}
           >
