@@ -12,9 +12,9 @@ const TechStack = () => {
     { name: "Node JS", level: "Intermediate" },
     { name: "Express JS", level: "Intermediate" },
     { name: "MongoDB", level: "Intermediate" },
+    { name: "Git & GitHub", level: "Intermediate" },
     { name: "SQL", level: "Intermediate" },
-    { name: "Git", level: "Intermediate" },
-    // { name: "Tailwind CSS", level: "Experienced" },
+    { name: "PostMan", level: "Experienced" },
   ];
 
   return (
