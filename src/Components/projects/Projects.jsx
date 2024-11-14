@@ -3,13 +3,13 @@ import projects from "./ProjectsData.json";
 
 const Projects = () => {
   return (
-    <div className="py-10 md:py-20 bg-gray-100">
+    <div className="py-10 md:py-20 bg-gray-100 ">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {projects.map((project) => (
             <div
               key={project.id}
-              className="bg-white overflow-hidden p-2 rounded-lg w-[95%] md:w-[24rem] mx-auto "
+              className="  bg-white overflow-hidden p-2 rounded-2xl w-[95%] md:w-[24rem] mx-auto hover:shadow-lg"
             >
               <img
                 src={project.image}
