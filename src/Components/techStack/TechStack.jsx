@@ -1,98 +1,58 @@
 const TechStack = () => {
+  const frontendSkills = [
+    { name: "HTML 5", level: "Experienced" },
+    { name: "CSS 3", level: "Experienced" },
+    { name: "JavaScript", level: "Experienced" },
+    { name: "React JS", level: "Experienced" },
+    { name: "Tailwind CSS", level: "Experienced" },
+    { name: "Bootstrap", level: "Intermediate" },
+  ];
+
+  const backendSkills = [
+    { name: "Node JS", level: "Intermediate" },
+    { name: "Express JS", level: "Intermediate" },
+    { name: "MongoDB", level: "Intermediate" },
+    { name: "SQL", level: "Intermediate" },
+    { name: "Git", level: "Intermediate" },
+    // { name: "Tailwind CSS", level: "Experienced" },
+  ];
+
   return (
-    <div className="w-full border-dashed md:py-20 ">
-      <div className="container mx-auto">
-        <div className="flex justify-center items-center">
-          <h3 className="font-bold text-xl mb-10">Tech Stack</h3>
+    <section className="w-full py-10 md:py-20 border-dashed">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-10">
+          <h3 className="font-bold text-2xl">Tech Stack</h3>
         </div>
 
-        <div className="md:flex justify-between gap-10">
-          <div className="frontend-section md:w-1/2 p-10 border-black border border-dashed rounded-xl">
-            <h2 className="font-bold text-xl text-center  mb-5 md:mb-10">
-              Frontend
-            </h2>
-            <ul className="flex justify-between flex-wrap">
-              <div>
-                <li>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
+        <div className="grid md:grid-cols-2 gap-10">
+          {/* Frontend Section */}
+          <div className="frontend-section p-10  border-[1px] border-dark border-dashed rounded-xl ">
+            <h2 className="font-bold text-xl text-center mb-5">Frontend</h2>
+            <ul className="grid grid-cols-2 md:grid-cols-3 gap-4">
+              {frontendSkills.map((skill, index) => (
+                <li key={index} className="text-center">
+                  <h3 className="font-semibold">{skill.name}</h3>
+                  <p>{skill.level}</p>
                 </li>
-                <li>
-                  <h3>CSS</h3>
-                  <p>Experienced</p>
-                </li>
-              </div>
-
-              <div>
-                <li>
-                  <h3>JavaScript</h3>
-                  <p>Experienced</p>
-                </li>
-
-                <li>
-                  <h3>React Js</h3>
-                  <p>intermediate</p>
-                </li>
-              </div>
-
-              <div>
-                <li>
-                  <h3>Tailwind</h3>
-                  <p>Experienced</p>
-                </li>
-                <li>
-                  <h3>BootStrap</h3>
-                  <p>intermediate</p>
-                </li>
-              </div>
+              ))}
             </ul>
           </div>
 
-          {/* ----- Backend ---- */}
-
-          <div className="mt-5 md:mt-0 backend-section md:w-1/2 p-10 border-black border border-dashed rounded-xl">
-            <h2 className="font-bold text-xl text-center  mb-5 md:mb-10">
-              Backend
-            </h2>
-            <ul className="flex justify-between flex-wrap">
-              <div>
-                <li>
-                  <h3>Node JS</h3>
-                  <p>intermediate</p>
+          {/* Backend Section */}
+          <div className="backend-section p-10 border-[1px] border-dark border-dashed rounded-xl">
+            <h2 className="font-bold text-xl text-center mb-5">Backend</h2>
+            <ul className="grid grid-cols-2 md:grid-cols-3 gap-4">
+              {backendSkills.map((skill, index) => (
+                <li key={index} className="text-center">
+                  <h3 className="font-semibold">{skill.name}</h3>
+                  <p>{skill.level}</p>
                 </li>
-                <li>
-                  <h3>Express js</h3>
-                  <p>intermediate</p>
-                </li>
-              </div>
-
-              <div>
-                <li>
-                  <h3>Git</h3>
-                  <p>intermediate</p>
-                </li>
-
-                <li>
-                  <h3>Mogo DB</h3>
-                  <p>intermediate</p>
-                </li>
-              </div>
-
-              <div>
-                <li>
-                  <h3>SQL</h3>
-                  <p>intermediate</p>
-                </li>
-                <li>
-                  <h3>Tailwind</h3>
-                  <p>Experienced</p>
-                </li>
-              </div>
+              ))}
             </ul>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
